@@ -63,3 +63,50 @@ body{
 .user-actions__item:last-child{
   margin-left: 80px;
 }
+
+.top {
+  background-image: url(../images/top-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.top__inner {
+  min-height: 500px;
+  color: #fff;
+  font-family: 'Cormorant', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.top__title {
+  font-size: 60px;
+  margin-bottom: 20px;
+  min-width: 780px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.top__text {
+  font-size: 24px;
+  margin-bottom: 48px;
+  max-width: 560px;
+  line-height: normal;
+}
+
+.blockquote__text {
+  font-family: 'Cormorant', serif;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  line-height: normal;
+  max-width: 744px;
+  margin: 150px auto;
+}
+
+.blockquote__text span{
+  background-color: #F7F2EA;
+  padding: 0 160px 15px 0;
+}
+
