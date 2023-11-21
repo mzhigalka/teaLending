@@ -44,8 +44,8 @@ body{
   font-family: 'Cormorant', serif;
   font-size: 40px;
   font-weight: 400;
-  line-height: normal;
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .header__inner{
@@ -189,6 +189,32 @@ body{
   font-family: 'Cormorant', serif;
   font-weight: 400;
   font-size: 24px;
+}
+
+.reviews {
+  background-color: #F7F2EA;
+  padding: 60px 0;
+}
+
+.reviews__list {
+  display: flex;
+  gap: 0 26px;
+}
+
+.reviews__item {
+  flex-basis: 280px;
+}
+
+.reviews__text {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.reviews__name {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
 }
 
 
@@ -346,6 +372,9 @@ body{
   .assortment__img{
     max-width: 170px;
   }
+  .assortment{
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -376,5 +405,7 @@ body{
     font-size: 24px;
     margin-bottom: 0;
   }
-  
+  .assortment{
+    margin-bottom: 80px;
+  }
 }
