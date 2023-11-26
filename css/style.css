@@ -371,11 +371,44 @@ body{
   left: 1px;
 }
 
-
 .checkbox__text {
   font-size: 13px;
   padding-left: 20px;
 }
+
+.prioritase {
+  padding: 150px 0;
+}
+
+.prioritase__item-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.prioritase__list {
+  display: flex;
+  gap: 30px 49px;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.prioritase__item {
+
+}
+
+.prioritase__text {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
 
 
 
