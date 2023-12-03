@@ -489,29 +489,24 @@ body{
   gap: 0 20px;
   align-items: center;
 }
-.footer__social-link
-{
+
+.footer__social-link{
   display: grid;
 }
 
-.footer__social-item {
-}
-.footer__social-link {
-}
 .footer__bottom {
   display: flex;
 }
+
 .footer__copy {
   margin-right: 192px;
   font-size: 16px;
 }
+
 .partners-logo {
   display: flex;
   gap: 0 20px;
 }
-.partners-logo__item {
-}
-
 
 
 
@@ -598,6 +593,24 @@ body{
   }
   .prioritase__list{
     gap: 30px 210px;
+  }
+  .footer__blockquote{
+    width: 270px;
+  }
+  .footer-blockquote__text{
+    margin-top: 0;
+  }
+  .footer__inner{
+    margin-bottom: 55px;
+  }
+  .footer__copy{
+    margin-right: 40px;
+  }
+  .footer__nav-logo{
+    margin-right: 35px;
+  }
+  .footer__contacts{
+    width: 270px;
   }
 }
 
@@ -699,6 +712,18 @@ body{
   .prioritase__list{
     gap: 30px 133px;
   }
+  .footer__inner{
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer__products,
+  .footer__company{
+    grid-row: span 3;
+  }
+  .footer__contacts{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
 }
 
 @media (max-width: 680px) {
@@ -774,6 +799,48 @@ body{
   }
   .prioritase{
     padding: 60px 0;
+  }
+  .footer__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer{
+    padding: 50px 0 10px;
+  }
+  .footer__company{
+    margin-right: 85px;
+  }
+  .footer__blockquote{
+    width: 100%;
+  }
+  .footer-blockquote__text{
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  .footer__contacts{
+    margin-top: 50px;
+    width: 100%;
+  }
+  .footer__contacts-title{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .footer__contacts-text{
+    text-align: center;
+  }
+  .footer__nav{
+    flex-wrap: nowrap;
+  }
+  .footer__social{
+    margin-left: 30px;
+  }
+  .footer__copy{
+    margin-right: auto
+  }
+  .footer__products-title,
+  .footer__company-title{
+    margin-bottom: 30px;
   }
 }
 
@@ -852,5 +919,22 @@ body{
   }
   .prioritase__list{
     gap: 40px 100px;
+  }
+  .footer__company{
+    padding-right: 15px;
+    margin-right: 0;
+  }
+  .footer__nav{
+    flex-wrap: wrap;
+  }
+  .footer__products{
+    padding-right: 10px;
+  }
+  .footer__social{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer__nav{
+    justify-content: center;
   }
 }
